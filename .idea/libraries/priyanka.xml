@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="priyanka">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../priyanka.train" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../priyanka.train/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
