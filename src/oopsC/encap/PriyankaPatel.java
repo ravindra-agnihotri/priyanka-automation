@@ -2,13 +2,17 @@ package oopsC.encap;
 
 public class PriyankaPatel {
 
-    private static String atm= "34543543535 RS";
+    private String atm= "34543543535 RS";
 
-    public static String getAtm() {
+    public  String getAtm() {
         return atm;
     }
 
-    public static void setAtm(String paiseWapasi) {
-        PriyankaPatel.atm = paiseWapasi;
+    public void print(){
+        System.out.println(atm);
+    }
+
+    public void setAtm(String paiseWapasi) {
+        this.atm = paiseWapasi;
     }
 }
