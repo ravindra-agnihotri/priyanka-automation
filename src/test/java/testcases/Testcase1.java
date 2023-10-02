@@ -47,7 +47,11 @@ LoginPage loginPage= new LoginPage(driver);
                     break;
                 }
             }
-        }
+        JavascriptExecutor javascriptExecutor= ((JavascriptExecutor) driver);
+        javascriptExecutor.executeScript("arguments[0].scrollIntoView();", driver.findElement(By.xpath("//select[@id='timezone']")));
+
+    }
+
 
 
         /*driver.navigate().to("https://the-internet.herokuapp.com/windows");
